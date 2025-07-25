@@ -1,5 +1,43 @@
 # @backstage/frontend-plugin-api
 
+## 0.11.0-next.0
+
+### Minor Changes
+
+- 29786f6: **BREAKING**: The `NavLogoBlueprint` has been removed and replaced by `NavContentBlueprint`, which instead replaces the entire navbar. The default navbar has also been switched to a more minimal implementation.
+
+  To use `NavContentBlueprint` to install new logos, you can use it as follows:
+
+  ```tsx
+  NavContentBlueprint.make({
+    params: {
+      component: ({ items }) => {
+        return compatWrapper(
+          <Sidebar>
+            <SidebarLogo />
+
+            {/* Other sidebar content */}
+
+            <SidebarScrollWrapper>
+              {items.map((item, index) => (
+                <SidebarItem {...item} key={index} />
+              ))}
+            </SidebarScrollWrapper>
+
+            {/* Other sidebar content */}
+          </Sidebar>,
+        );
+      },
+    },
+  });
+  ```
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/core-components@0.17.5-next.0
+  - @backstage/core-plugin-api@1.10.9
+
 ## 0.10.4
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # @backstage/plugin-mcp-actions-backend
 
+## 0.1.2-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/catalog-client@1.11.0-next.0
+  - @backstage/plugin-catalog-node@1.18.0-next.0
+  - @backstage/backend-defaults@0.11.2-next.0
+  - @backstage/backend-plugin-api@1.4.2-next.0
+
 ## 0.1.1
 
 ### Patch Changes

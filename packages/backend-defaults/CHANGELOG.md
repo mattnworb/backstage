@@ -1,5 +1,21 @@
 # @backstage/backend-defaults
 
+## 0.11.2-next.0
+
+### Patch Changes
+
+- 3a7dad9: Updated `better-sqlite3` to v12
+- Updated dependencies
+  - @backstage/plugin-auth-node@0.6.6-next.0
+  - @backstage/backend-app-api@1.2.6-next.0
+  - @backstage/backend-plugin-api@1.4.2-next.0
+  - @backstage/cli-node@0.2.13
+  - @backstage/config-loader@1.10.2
+  - @backstage/plugin-events-node@0.4.14-next.0
+  - @backstage/plugin-permission-node@0.10.3-next.0
+  - @backstage/config@1.3.3
+  - @backstage/integration-aws-node@0.1.17
+
 ## 0.11.1
 
 ### Patch Changes

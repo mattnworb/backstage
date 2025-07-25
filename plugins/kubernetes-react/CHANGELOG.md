@@ -1,5 +1,13 @@
 # @backstage/plugin-kubernetes-react
 
+## 0.5.10-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/core-components@0.17.5-next.0
+  - @backstage/core-plugin-api@1.10.9
+
 ## 0.5.9
 
 ### Patch Changes

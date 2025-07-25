@@ -1,5 +1,19 @@
 # @backstage/plugin-catalog-backend
 
+## 3.0.1-next.0
+
+### Patch Changes
+
+- 3a7dad9: Updated `better-sqlite3` to v12
+- Updated dependencies
+  - @backstage/catalog-client@1.11.0-next.0
+  - @backstage/plugin-catalog-node@1.18.0-next.0
+  - @backstage/backend-plugin-api@1.4.2-next.0
+  - @backstage/plugin-events-node@0.4.14-next.0
+  - @backstage/plugin-permission-node@0.10.3-next.0
+  - @backstage/backend-openapi-utils@0.5.6-next.0
+  - @backstage/config@1.3.3
+
 ## 3.0.0
 
 ### Major Changes

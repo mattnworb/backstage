@@ -1,5 +1,15 @@
 # @backstage/plugin-techdocs-react
 
+## 1.3.2-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/frontend-plugin-api@0.11.0-next.0
+  - @backstage/core-components@0.17.5-next.0
+  - @backstage/config@1.3.3
+  - @backstage/core-plugin-api@1.10.9
+
 ## 1.3.1
 
 ### Patch Changes

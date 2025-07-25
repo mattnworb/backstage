@@ -1,5 +1,12 @@
 # @backstage/ui
 
+## 0.7.0-next.1
+
+### Patch Changes
+
+- 75fead9: Fixes a couple of small bugs in BUI including setting H1 and H2 correctly on the Header and HeaderPage.
+- 2f9a084: We are motion away from `motion` to use `gsap` instead to make Backstage UI backward compatible with React 17.
+
 ## 0.7.0-next.0
 
 ### Minor Changes
